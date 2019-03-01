@@ -8,7 +8,7 @@ public boolean isFull() {
     return isFull(overallRoot);
 }
 
-public boolean isFull(IntTreeNode root) {
+private boolean isFull(IntTreeNode root) {
     if (root == null) {
         return true;
     } else if (root.left == null && root.right != null) {
